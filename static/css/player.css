@@ -1,0 +1,34 @@
+/* player.css: Стили, специфичные для страницы плеера */
+/* Контейнер плеера занимает весь экран */
+#player-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    /*background: black; !* фон на случай, если видео меньше контейнера *!*/
+}
+
+/* Видео растягивается по экрану, масштабируясь пропорционально */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Название клипа позиционируется абсолютно относительно player-container */
+.clip-title {
+    position: absolute;
+    bottom: 10px;
+    /* left будет задаваться динамически через JS */
+    padding: 5px 10px;
+    background: transparent;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 200%;
+    border-radius: 8px;
+    text-shadow:
+       -1px -1px 0 #000,
+        1px -1px 0 #000,
+       -1px  1px 0 #000,
+        1px  1px 0 #000;
+}

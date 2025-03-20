@@ -1,0 +1,17 @@
+aiohttp==3.11.13
+asqlite==2.0.0
+fastapi==0.115.11
+ffmpeg-python==0.2.0
+httpx==0.28.1
+jinja2==3.1.6
+orjson==3.10.15
+starlette==0.46.1
+twitchio==2.10.0
+uvicorn[standard]==0.34.0
+yandex-music==2.2.0
+yt-dlp==2025.2.19
+zstandard==0.23.0
+spotify-downloader==0.4.2
+scdl==2.12.4
+
+ruff==0.10.0

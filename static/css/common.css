@@ -1,0 +1,7 @@
+/* common.css: Общие стили для тёмного режима и базовая типографика */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}

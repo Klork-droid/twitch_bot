@@ -1,0 +1,20 @@
+/* playlist.css: Стили, специфичные для страницы плейлиста */
+.track-item {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #444;
+    background-color: #1e1e1e;
+}
+
+.track-item button {
+    margin-left: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.track-item button:hover {
+    background-color: #555555;
+}
